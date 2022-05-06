@@ -5,7 +5,7 @@ USAGE
 * list($filename, $total) = getSumation("A.txt");
 
 */
-function getSumation($filename = 'A.txt', $result){
+function getSumation($filename = 'A.txt', $result=[]){
   $ext = strtolower(pathinfo($filename,   PATHINFO_EXTENSION);
     if( is_file($filename) && $ext)
      ){
@@ -27,6 +27,7 @@ function getSumation($filename = 'A.txt', $result){
     }else{
        return json_encode(["message"=>"error opening the file"]);
     }
+
     $total_sumation = array_sum($result);
     $response = array(
       "filename" => $filename,
