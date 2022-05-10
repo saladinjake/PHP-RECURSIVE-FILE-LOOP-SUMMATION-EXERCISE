@@ -1,0 +1,26 @@
+{
+    "name": "victor/php-file-test",
+    "description": "A test assignment",
+    "require": {
+        "php": "^7.4",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+        
+        },
+        "classmap":[
+          "./src"
+        ]
+    },
+    "scripts": {
+      "test": "./vendor/bin/phpunit --testsuite unit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "saladinjake",
+            "email": "juwavictor@gmail.com"
+        }
+    ]
+}
