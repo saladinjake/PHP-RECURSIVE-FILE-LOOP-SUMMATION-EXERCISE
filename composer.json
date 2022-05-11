@@ -7,10 +7,10 @@
     },
     "autoload": {
         "psr-4": {
-        
+           
         },
         "classmap":[
-          "./src"
+           "src/"
         ]
     },
     "scripts": {
