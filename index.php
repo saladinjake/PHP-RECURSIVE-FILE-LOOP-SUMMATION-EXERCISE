@@ -3,7 +3,7 @@
   
   $startFile ="A.txt";
   $summation = new Sum();
-  $result = $summation->getSummation($startFile);
+  $result = $summation->getSumation($startFile);
  
 ?>
 <pre>

@@ -7,10 +7,10 @@
     },
     "autoload": {
         "psr-4": {
-           
+        
         },
         "classmap":[
-           "src/"
+          "./src"
         ]
     },
     "scripts": {
@@ -19,8 +19,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": ""
-            "email": ""
+            "name": "saladinjake",
+            "email": "juwavictor@gmail.com"
         }
     ]
 }
